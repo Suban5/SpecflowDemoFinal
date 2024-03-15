@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" name="SpecFlowTest.dll" fullname="C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0\SpecFlowTest.dll" runstate="Runnable" testcasecount="10" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="1" engine-version="3.12.0.0" clr-version="6.0.26" start-time="2024-03-15 13:05:25Z" end-time="2024-03-15 13:05:26Z" duration="1.399613">
+  <command-line><![CDATA[C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0\testhost.dll --port 50007 --endpoint 127.0.0.1:050007 --role client --parentprocessid 9068 --telemetryoptedin true]]></command-line>
+  <filter>
+    <test>SpecFlowTest.Features.ShoppingCartFeature.CalculateTotalPriceOfItemAddedInShoppingCart</test>
+  </filter>
+  <test-suite type="Assembly" id="0-1015" name="SpecFlowTest.dll" fullname="C:/Users/suban/source/repos/InternalDemo/SpecflowDemoFinal/SpecFlowTest/bin/Debug/net6.0/SpecFlowTest.dll" runstate="Runnable" testcasecount="10" result="Passed" start-time="2024-03-15T13:05:25.5263609Z" end-time="2024-03-15T13:05:26.8960816Z" duration="1.369662" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+    <environment framework-version="3.13.2.0" clr-version="6.0.26" os-version="Microsoft Windows 10.0.19045" platform="Win32NT" cwd="C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0" machine-name="DESKTOP-H6DCBC9" user="suban" user-domain="DESKTOP-H6DCBC9" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="SynchronousEvents" value="False" />
+      <setting name="RandomSeed" value="1165385379" />
+      <setting name="SkipNonTestAssemblies" value="True" />
+      <setting name="ProcessModel" value="InProcess" />
+      <setting name="DomainUsage" value="Single" />
+      <setting name="DefaultTestNamePattern" value="{m}{a}" />
+      <setting name="WorkDirectory" value="C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="3372" />
+      <property name="_APPDOMAIN" value="testhost" />
+    </properties>
+    <test-suite type="SetUpFixture" id="0-1000" name="[default namespace]" fullname="SpecFlowTest_NUnitAssemblyHooks" classname="SpecFlowTest_NUnitAssemblyHooks" runstate="Runnable" testcasecount="10" result="Passed" start-time="2024-03-15T13:05:25.5351401Z" end-time="2024-03-15T13:05:26.8959986Z" duration="1.360859" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+      <output><![CDATA[-> Loading plugin C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0\LivingDoc.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0\SpecFlowTest.dll
+-> Using default config
+-> LivingDocPlugin: Output generated in: C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0\TestExecution.json
+]]></output>
+      <test-suite type="TestSuite" id="0-1016" name="SpecFlowTest" fullname="SpecFlowTest" runstate="Runnable" testcasecount="10" result="Passed" start-time="2024-03-15T13:05:25.9023823Z" end-time="2024-03-15T13:05:26.0569562Z" duration="0.154573" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <test-suite type="TestSuite" id="0-1017" name="Features" fullname="SpecFlowTest.Features" runstate="Runnable" testcasecount="10" result="Passed" start-time="2024-03-15T13:05:25.9036651Z" end-time="2024-03-15T13:05:26.0569376Z" duration="0.153272" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-suite type="TestFixture" id="0-1013" name="ShoppingCartFeature" fullname="SpecFlowTest.Features.ShoppingCartFeature" classname="SpecFlowTest.Features.ShoppingCartFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2024-03-15T13:05:25.9042962Z" end-time="2024-03-15T13:05:26.0564278Z" duration="0.152131" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <properties>
+              <property name="Description" value="ShoppingCart" />
+              <property name="Category" value="test" />
+            </properties>
+            <test-case id="0-1014" name="CalculateTotalPriceOfItemAddedInShoppingCart" fullname="SpecFlowTest.Features.ShoppingCartFeature.CalculateTotalPriceOfItemAddedInShoppingCart" methodname="CalculateTotalPriceOfItemAddedInShoppingCart" classname="SpecFlowTest.Features.ShoppingCartFeature" runstate="Runnable" seed="405339206" result="Passed" start-time="2024-03-15T13:05:25.9099986Z" end-time="2024-03-15T13:05:26.0511658Z" duration="0.141349" asserts="1">
+              <properties>
+                <property name="Description" value="Calculate Total Price of item added in shopping cart" />
+                <property name="Category" value="shoppin" />
+                <property name="Category" value="price" />
+              </properties>
+              <output><![CDATA[Given the following items are in my shopping cart:
+  --- table step argument ---
+  | Item      | Quantity | Price |
+  | Chocolate | 2        | 100   |
+  | Chips     | 1        | 50    |
+  | Juice     | 2        | 25    |
+-> done: ShoppingCartStepDefinitions.GivenTheFollowingItemsAreInMyShoppingCart(<table>) (0.1s)
+When I calculate the total price
+-> done: ShoppingCartStepDefinitions.WhenICalculateTheTotalPrice() (0.0s)
+Then the total price should be 300
+-> done: ShoppingCartStepDefinitions.ThenTheTotalPriceShouldBe(300) (0.0s)
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

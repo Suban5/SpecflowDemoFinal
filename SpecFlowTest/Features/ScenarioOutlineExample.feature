@@ -20,4 +20,4 @@ Examples: 2 add negative numbers
 	| number1 | number2 | expectedSum |
 	| -50     | -70     | -120        |
 	| -5      | -7      | -12         |
-	| -1      | -2      | -3          |
+	| -1      | -2      | -5          |

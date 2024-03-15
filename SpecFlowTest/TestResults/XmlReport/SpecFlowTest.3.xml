@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" name="SpecFlowTest.dll" fullname="C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0\SpecFlowTest.dll" runstate="Runnable" testcasecount="10" result="Failed" total="6" passed="5" failed="1" inconclusive="0" skipped="0" asserts="6" engine-version="3.12.0.0" clr-version="6.0.26" start-time="2024-03-15 13:05:09Z" end-time="2024-03-15 13:05:11Z" duration="1.700375">
+  <command-line><![CDATA[C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0\testhost.dll --port 50003 --endpoint 127.0.0.1:050003 --role client --parentprocessid 9068 --telemetryoptedin true]]></command-line>
+  <filter>
+    <or>
+      <test>SpecFlowTest.Features.ScenarioOutlineExampleFeature.AddTwoNumbersUsingScenarioOutline("50","70","120",["positive"])</test>
+      <test>SpecFlowTest.Features.ScenarioOutlineExampleFeature.AddTwoNumbersUsingScenarioOutline("5","7","12",["positive"])</test>
+      <test>SpecFlowTest.Features.ScenarioOutlineExampleFeature.AddTwoNumbersUsingScenarioOutline("1","2","3",["positive"])</test>
+      <test>SpecFlowTest.Features.ScenarioOutlineExampleFeature.AddTwoNumbersUsingScenarioOutline("-50","-70","-120",["negative"])</test>
+      <test>SpecFlowTest.Features.ScenarioOutlineExampleFeature.AddTwoNumbersUsingScenarioOutline("-5","-7","-12",["negative"])</test>
+      <test>SpecFlowTest.Features.ScenarioOutlineExampleFeature.AddTwoNumbersUsingScenarioOutline("-1","-2","-5",["negative"])</test>
+    </or>
+  </filter>
+  <test-suite type="Assembly" id="0-1015" name="SpecFlowTest.dll" fullname="C:/Users/suban/source/repos/InternalDemo/SpecflowDemoFinal/SpecFlowTest/bin/Debug/net6.0/SpecFlowTest.dll" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2024-03-15T13:05:09.5904836Z" end-time="2024-03-15T13:05:11.2626981Z" duration="1.672145" total="6" passed="5" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="6">
+    <environment framework-version="3.13.2.0" clr-version="6.0.26" os-version="Microsoft Windows 10.0.19045" platform="Win32NT" cwd="C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0" machine-name="DESKTOP-H6DCBC9" user="suban" user-domain="DESKTOP-H6DCBC9" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="SynchronousEvents" value="False" />
+      <setting name="RandomSeed" value="1165385379" />
+      <setting name="SkipNonTestAssemblies" value="True" />
+      <setting name="ProcessModel" value="InProcess" />
+      <setting name="DomainUsage" value="Single" />
+      <setting name="DefaultTestNamePattern" value="{m}{a}" />
+      <setting name="WorkDirectory" value="C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="7352" />
+      <property name="_APPDOMAIN" value="testhost" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="SetUpFixture" id="0-1000" name="[default namespace]" fullname="SpecFlowTest_NUnitAssemblyHooks" classname="SpecFlowTest_NUnitAssemblyHooks" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2024-03-15T13:05:09.5982240Z" end-time="2024-03-15T13:05:11.2626241Z" duration="1.664401" total="6" passed="5" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="6">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <output><![CDATA[-> Loading plugin C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0\LivingDoc.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0\SpecFlowTest.dll
+-> Using default config
+-> LivingDocPlugin: Output generated in: C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0\TestExecution.json
+]]></output>
+      <test-suite type="TestSuite" id="0-1016" name="SpecFlowTest" fullname="SpecFlowTest" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2024-03-15T13:05:09.9618528Z" end-time="2024-03-15T13:05:10.6541959Z" duration="0.692343" total="6" passed="5" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="6">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="0-1017" name="Features" fullname="SpecFlowTest.Features" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2024-03-15T13:05:09.9619123Z" end-time="2024-03-15T13:05:10.6541894Z" duration="0.692277" total="6" passed="5" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="6">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="0-1005" name="ScenarioOutlineExampleFeature" fullname="SpecFlowTest.Features.ScenarioOutlineExampleFeature" classname="SpecFlowTest.Features.ScenarioOutlineExampleFeature" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2024-03-15T13:05:09.9619658Z" end-time="2024-03-15T13:05:10.6541443Z" duration="0.692179" total="6" passed="5" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="6">
+            <properties>
+              <property name="Description" value="ScenarioOutlineExample" />
+              <property name="Category" value="test" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="ParameterizedMethod" id="0-1012" name="AddTwoNumbersUsingScenarioOutline" fullname="SpecFlowTest.Features.ScenarioOutlineExampleFeature.AddTwoNumbersUsingScenarioOutline" classname="SpecFlowTest.Features.ScenarioOutlineExampleFeature" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2024-03-15T13:05:09.9665328Z" end-time="2024-03-15T13:05:10.6509086Z" duration="0.684376" total="6" passed="5" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="6">
+              <properties>
+                <property name="Description" value="Add two numbers using scenario outline" />
+                <property name="Category" value="add" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="0-1006" name="AddTwoNumbersUsingScenarioOutline(&quot;50&quot;,&quot;70&quot;,&quot;120&quot;,[&quot;positive&quot;])" fullname="SpecFlowTest.Features.ScenarioOutlineExampleFeature.AddTwoNumbersUsingScenarioOutline(&quot;50&quot;,&quot;70&quot;,&quot;120&quot;,[&quot;positive&quot;])" methodname="AddTwoNumbersUsingScenarioOutline" classname="SpecFlowTest.Features.ScenarioOutlineExampleFeature" runstate="Runnable" seed="1801410366" result="Passed" start-time="2024-03-15T13:05:09.9666033Z" end-time="2024-03-15T13:05:10.0261683Z" duration="0.059700" asserts="1">
+                <properties>
+                  <property name="Category" value="positive" />
+                </properties>
+                <output><![CDATA[Given the first number is 50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+And the second number is 70
+-> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(70) (0.0s)
+When the two numbers are added
+-> done: CalculatorStepDefinitions.WhenTheTwoNumbersAreAdded() (0.0s)
+Then the result should be 120
+-> done: CalculatorStepDefinitions.ThenTheResultShouldBe(120) (0.0s)
+]]></output>
+              </test-case>
+              <test-case id="0-1007" name="AddTwoNumbersUsingScenarioOutline(&quot;5&quot;,&quot;7&quot;,&quot;12&quot;,[&quot;positive&quot;])" fullname="SpecFlowTest.Features.ScenarioOutlineExampleFeature.AddTwoNumbersUsingScenarioOutline(&quot;5&quot;,&quot;7&quot;,&quot;12&quot;,[&quot;positive&quot;])" methodname="AddTwoNumbersUsingScenarioOutline" classname="SpecFlowTest.Features.ScenarioOutlineExampleFeature" runstate="Runnable" seed="1900379265" result="Passed" start-time="2024-03-15T13:05:10.0289621Z" end-time="2024-03-15T13:05:10.0305152Z" duration="0.001553" asserts="1">
+                <properties>
+                  <property name="Category" value="positive" />
+                </properties>
+                <output><![CDATA[Given the first number is 5
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(5) (0.0s)
+And the second number is 7
+-> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(7) (0.0s)
+When the two numbers are added
+-> done: CalculatorStepDefinitions.WhenTheTwoNumbersAreAdded() (0.0s)
+Then the result should be 12
+-> done: CalculatorStepDefinitions.ThenTheResultShouldBe(12) (0.0s)
+]]></output>
+              </test-case>
+              <test-case id="0-1008" name="AddTwoNumbersUsingScenarioOutline(&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,[&quot;positive&quot;])" fullname="SpecFlowTest.Features.ScenarioOutlineExampleFeature.AddTwoNumbersUsingScenarioOutline(&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,[&quot;positive&quot;])" methodname="AddTwoNumbersUsingScenarioOutline" classname="SpecFlowTest.Features.ScenarioOutlineExampleFeature" runstate="Runnable" seed="449146533" result="Passed" start-time="2024-03-15T13:05:10.0305600Z" end-time="2024-03-15T13:05:10.0315941Z" duration="0.001034" asserts="1">
+                <properties>
+                  <property name="Category" value="positive" />
+                </properties>
+                <output><![CDATA[Given the first number is 1
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(1) (0.0s)
+And the second number is 2
+-> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(2) (0.0s)
+When the two numbers are added
+-> done: CalculatorStepDefinitions.WhenTheTwoNumbersAreAdded() (0.0s)
+Then the result should be 3
+-> done: CalculatorStepDefinitions.ThenTheResultShouldBe(3) (0.0s)
+]]></output>
+              </test-case>
+              <test-case id="0-1009" name="AddTwoNumbersUsingScenarioOutline(&quot;-50&quot;,&quot;-70&quot;,&quot;-120&quot;,[&quot;negative&quot;])" fullname="SpecFlowTest.Features.ScenarioOutlineExampleFeature.AddTwoNumbersUsingScenarioOutline(&quot;-50&quot;,&quot;-70&quot;,&quot;-120&quot;,[&quot;negative&quot;])" methodname="AddTwoNumbersUsingScenarioOutline" classname="SpecFlowTest.Features.ScenarioOutlineExampleFeature" runstate="Runnable" seed="1767402371" result="Passed" start-time="2024-03-15T13:05:10.0316220Z" end-time="2024-03-15T13:05:10.0325299Z" duration="0.000908" asserts="1">
+                <properties>
+                  <property name="Category" value="negative" />
+                </properties>
+                <output><![CDATA[Given the first number is -50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(-50) (0.0s)
+And the second number is -70
+-> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(-70) (0.0s)
+When the two numbers are added
+-> done: CalculatorStepDefinitions.WhenTheTwoNumbersAreAdded() (0.0s)
+Then the result should be -120
+-> done: CalculatorStepDefinitions.ThenTheResultShouldBe(-120) (0.0s)
+]]></output>
+              </test-case>
+              <test-case id="0-1010" name="AddTwoNumbersUsingScenarioOutline(&quot;-5&quot;,&quot;-7&quot;,&quot;-12&quot;,[&quot;negative&quot;])" fullname="SpecFlowTest.Features.ScenarioOutlineExampleFeature.AddTwoNumbersUsingScenarioOutline(&quot;-5&quot;,&quot;-7&quot;,&quot;-12&quot;,[&quot;negative&quot;])" methodname="AddTwoNumbersUsingScenarioOutline" classname="SpecFlowTest.Features.ScenarioOutlineExampleFeature" runstate="Runnable" seed="1426861049" result="Passed" start-time="2024-03-15T13:05:10.0325623Z" end-time="2024-03-15T13:05:10.0332403Z" duration="0.000678" asserts="1">
+                <properties>
+                  <property name="Category" value="negative" />
+                </properties>
+                <output><![CDATA[Given the first number is -5
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(-5) (0.0s)
+And the second number is -7
+-> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(-7) (0.0s)
+When the two numbers are added
+-> done: CalculatorStepDefinitions.WhenTheTwoNumbersAreAdded() (0.0s)
+Then the result should be -12
+-> done: CalculatorStepDefinitions.ThenTheResultShouldBe(-12) (0.0s)
+]]></output>
+              </test-case>
+              <test-case id="0-1011" name="AddTwoNumbersUsingScenarioOutline(&quot;-1&quot;,&quot;-2&quot;,&quot;-5&quot;,[&quot;negative&quot;])" fullname="SpecFlowTest.Features.ScenarioOutlineExampleFeature.AddTwoNumbersUsingScenarioOutline(&quot;-1&quot;,&quot;-2&quot;,&quot;-5&quot;,[&quot;negative&quot;])" methodname="AddTwoNumbersUsingScenarioOutline" classname="SpecFlowTest.Features.ScenarioOutlineExampleFeature" runstate="Runnable" seed="944861940" result="Failed" start-time="2024-03-15T13:05:10.0332555Z" end-time="2024-03-15T13:05:10.6493050Z" duration="0.616050" asserts="1">
+                <properties>
+                  <property name="Category" value="negative" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: -5
+  But was:  -3
+]]></message>
+                  <stack-trace><![CDATA[   at SpecFlowTest.StepDefinitions.CalculatorStepDefinitions.ThenTheResultShouldBe(Int32 result) in C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\StepDefinitions\CalculatorStepDefinitions.cs:line 37
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   at SpecFlowTest.Features.ScenarioOutlineExampleFeature.ScenarioCleanup()
+   at SpecFlowTest.Features.ScenarioOutlineExampleFeature.AddTwoNumbersUsingScenarioOutline(String number1, String number2, String expectedSum, String[] exampleTags) in C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\Features\ScenarioOutlineExample.feature:line 9
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Given the first number is -1
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(-1) (0.0s)
+And the second number is -2
+-> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(-2) (0.0s)
+When the two numbers are added
+-> done: CalculatorStepDefinitions.WhenTheTwoNumbersAreAdded() (0.0s)
+Then the result should be -5
+-> error:   Expected: -5
+  But was:  -3
+ (0.6s)
+]]></output>
+                <assertions>
+                  <assertion result="Failed">
+                    <message><![CDATA[  Expected: -5
+  But was:  -3
+]]></message>
+                    <stack-trace><![CDATA[   at SpecFlowTest.StepDefinitions.CalculatorStepDefinitions.ThenTheResultShouldBe(Int32 result) in C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\StepDefinitions\CalculatorStepDefinitions.cs:line 37
+]]></stack-trace>
+                  </assertion>
+                </assertions>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" name="SpecFlowTest.dll" fullname="C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0\SpecFlowTest.dll" runstate="Runnable" testcasecount="10" result="Skipped" label="Ignored" total="3" passed="2" failed="0" inconclusive="0" skipped="1" asserts="2" engine-version="3.12.0.0" clr-version="6.0.26" start-time="2024-03-15 13:04:52Z" end-time="2024-03-15 13:04:56Z" duration="3.566453">
+  <command-line><![CDATA[C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0\testhost.dll --port 49998 --endpoint 127.0.0.1:049998 --role client --parentprocessid 9068 --telemetryoptedin true]]></command-line>
+  <filter>
+    <or>
+      <test>SpecFlowTest.Features.CalculatorFeature.AddTwoNumbers</test>
+      <test>SpecFlowTest.Features.CalculatorFeature.AddTwoNumbersUsingDataTable</test>
+      <test>SpecFlowTest.Features.CalculatorFeature.MultiplyTwoNumbers</test>
+    </or>
+  </filter>
+  <test-suite type="Assembly" id="0-1015" name="SpecFlowTest.dll" fullname="C:/Users/suban/source/repos/InternalDemo/SpecflowDemoFinal/SpecFlowTest/bin/Debug/net6.0/SpecFlowTest.dll" runstate="Runnable" testcasecount="10" result="Skipped" label="Ignored" site="Child" start-time="2024-03-15T13:04:52.6462959Z" end-time="2024-03-15T13:04:56.1413301Z" duration="3.494929" total="3" passed="2" failed="0" warnings="0" inconclusive="0" skipped="1" asserts="2">
+    <environment framework-version="3.13.2.0" clr-version="6.0.26" os-version="Microsoft Windows 10.0.19045" platform="Win32NT" cwd="C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0" machine-name="DESKTOP-H6DCBC9" user="suban" user-domain="DESKTOP-H6DCBC9" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="SynchronousEvents" value="False" />
+      <setting name="RandomSeed" value="1165385379" />
+      <setting name="SkipNonTestAssemblies" value="True" />
+      <setting name="ProcessModel" value="InProcess" />
+      <setting name="DomainUsage" value="Single" />
+      <setting name="DefaultTestNamePattern" value="{m}{a}" />
+      <setting name="WorkDirectory" value="C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="9624" />
+      <property name="_APPDOMAIN" value="testhost" />
+    </properties>
+    <reason>
+      <message><![CDATA[One or more child tests were ignored]]></message>
+    </reason>
+    <test-suite type="SetUpFixture" id="0-1000" name="[default namespace]" fullname="SpecFlowTest_NUnitAssemblyHooks" classname="SpecFlowTest_NUnitAssemblyHooks" runstate="Runnable" testcasecount="10" result="Skipped" label="Ignored" site="Child" start-time="2024-03-15T13:04:52.6791427Z" end-time="2024-03-15T13:04:56.1412726Z" duration="3.462130" total="3" passed="2" failed="0" warnings="0" inconclusive="0" skipped="1" asserts="2">
+      <reason>
+        <message><![CDATA[One or more child tests were ignored]]></message>
+      </reason>
+      <output><![CDATA[-> Loading plugin C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0\LivingDoc.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0\SpecFlowTest.dll
+-> Using default config
+-> LivingDocPlugin: Output generated in: C:\Users\suban\source\repos\InternalDemo\SpecflowDemoFinal\SpecFlowTest\bin\Debug\net6.0\TestExecution.json
+]]></output>
+      <test-suite type="TestSuite" id="0-1016" name="SpecFlowTest" fullname="SpecFlowTest" runstate="Runnable" testcasecount="10" result="Skipped" label="Ignored" site="Child" start-time="2024-03-15T13:04:54.4932761Z" end-time="2024-03-15T13:04:55.1772658Z" duration="0.683989" total="3" passed="2" failed="0" warnings="0" inconclusive="0" skipped="1" asserts="2">
+        <reason>
+          <message><![CDATA[One or more child tests were ignored]]></message>
+        </reason>
+        <test-suite type="TestSuite" id="0-1017" name="Features" fullname="SpecFlowTest.Features" runstate="Runnable" testcasecount="10" result="Skipped" label="Ignored" site="Child" start-time="2024-03-15T13:04:54.4933202Z" end-time="2024-03-15T13:04:55.1772516Z" duration="0.683932" total="3" passed="2" failed="0" warnings="0" inconclusive="0" skipped="1" asserts="2">
+          <reason>
+            <message><![CDATA[One or more child tests were ignored]]></message>
+          </reason>
+          <test-suite type="TestFixture" id="0-1001" name="CalculatorFeature" fullname="SpecFlowTest.Features.CalculatorFeature" classname="SpecFlowTest.Features.CalculatorFeature" runstate="Runnable" testcasecount="3" result="Skipped" label="Ignored" site="Child" start-time="2024-03-15T13:04:54.4933551Z" end-time="2024-03-15T13:04:55.1766580Z" duration="0.683303" total="3" passed="2" failed="0" warnings="0" inconclusive="0" skipped="1" asserts="2">
+            <properties>
+              <property name="Description" value="Calculator" />
+              <property name="Category" value="test" />
+            </properties>
+            <reason>
+              <message><![CDATA[One or more child tests were ignored]]></message>
+            </reason>
+            <test-case id="0-1002" name="AddTwoNumbers" fullname="SpecFlowTest.Features.CalculatorFeature.AddTwoNumbers" methodname="AddTwoNumbers" classname="SpecFlowTest.Features.CalculatorFeature" runstate="Runnable" seed="1256932380" result="Passed" start-time="2024-03-15T13:04:54.4963673Z" end-time="2024-03-15T13:04:54.9163646Z" duration="0.420207" asserts="1">
+              <properties>
+                <property name="Description" value="Add two numbers" />
+                <property name="Category" value="add" />
+              </properties>
+              <output><![CDATA[Given the first number is 50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.1s)
+And the second number is 70
+-> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(70) (0.0s)
+When the two numbers are added
+-> done: CalculatorStepDefinitions.WhenTheTwoNumbersAreAdded() (0.0s)
+Then the result should be 120
+-> done: CalculatorStepDefinitions.ThenTheResultShouldBe(120) (0.0s)
+]]></output>
+            </test-case>
+            <test-case id="0-1004" name="AddTwoNumbersUsingDataTable" fullname="SpecFlowTest.Features.CalculatorFeature.AddTwoNumbersUsingDataTable" methodname="AddTwoNumbersUsingDataTable" classname="SpecFlowTest.Features.CalculatorFeature" runstate="Runnable" seed="843247275" result="Passed" start-time="2024-03-15T13:04:54.9191497Z" end-time="2024-03-15T13:04:55.1717362Z" duration="0.252586" asserts="1">
+              <properties>
+                <property name="Description" value="Add two numbers using data table" />
+                <property name="Category" value="add" />
+              </properties>
+              <output><![CDATA[Given the first and second number are:
+  --- table step argument ---
+  | Number1 | Number2 |
+  | 10      | 20      |
+-> done: CalculatorStepDefinitions.GivenTheFirstAndSecondNumberAre(<table>) (0.2s)
+When the two numbers are added
+-> done: CalculatorStepDefinitions.WhenTheTwoNumbersAreAdded() (0.0s)
+Then the result should be 30
+-> done: CalculatorStepDefinitions.ThenTheResultShouldBe(30) (0.0s)
+]]></output>
+            </test-case>
+            <test-case id="0-1003" name="MultiplyTwoNumbers" fullname="SpecFlowTest.Features.CalculatorFeature.MultiplyTwoNumbers" methodname="MultiplyTwoNumbers" classname="SpecFlowTest.Features.CalculatorFeature" runstate="Ignored" seed="887083973" result="Skipped" label="Ignored" start-time="2024-03-15T13:04:55.1717999Z" end-time="2024-03-15T13:04:55.1725301Z" duration="0.000730" asserts="0">
+              <properties>
+                <property name="Description" value="Multiply two numbers" />
+                <property name="_SKIPREASON" value="Ignored scenario" />
+                <property name="Category" value="multiply" />
+              </properties>
+              <reason>
+                <message><![CDATA[Ignored scenario]]></message>
+              </reason>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
